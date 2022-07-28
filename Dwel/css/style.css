@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 4005px;
+}
+.navbar{
+    margin: 40px auto;
+    width: 1320px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    width: 96px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.hero{
+    margin: auto;
+    width: 1320px;
+    height: 806px;
+}
+.hero-img{
+    position: relative;
+    width: 1320px;
+    height: 806px;
+}
+.play-icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 70px/2);
+    top: calc(50% - 70px/2 - 0.2px);
+}
+.main{
+    margin: 120px auto;
+    width: 1440px;
+    height: 2560px;
+}
+.main-head{
+    margin-left: 70px;
+    width: 96px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.mphotos{
+    margin: auto;
+    width: 1320px;
+    height: 2513px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-div{
+    margin: 20px auto;
+    width: 640px;
+    height: 470px;
+}
+.photo-name{
+    width: 120px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+}
+.footer{
+    width: 1440px;
+    height: 275px;
+}
+.foot-div{
+    margin: auto;
+    width: 1320px;
+    height: 275px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-para{
+    width: 170px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.foot-underline{
+    font-size: 17px;
+}
+.foot-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 620px;
+}
+.foot-item{
+    width: 93px;
+    height: 75px;
+}
+.item-name{
+    width: 93px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}

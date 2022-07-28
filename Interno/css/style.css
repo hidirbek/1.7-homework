@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 8421px;
+}
+.nav-bar{
+    margin: 26px 0 18px 120px;
+    width: 1200px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    width: 177px;
+    height: 50px;
+
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: 485px;
+}
+.list-items{
+    width: 97px;
+}
+.nav-links{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #292F36;
+}
+.nav-links:hover{
+    color: #CDA274;
+}
+.hero{
+    width: 1440px;
+    height: 841px;
+    background-image: url("../img/dream-interior.png");
+    background-repeat: no-repeat;
+    margin: 0 0 100px 0;
+}
+.hero-text{
+    padding: 195px 0 0 120px;
+    width: 600px;
+    height: 386px;
+}
+.hero-head{
+    width: 595px;
+    margin: 7px 19px 5px 0;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.hero-para{
+    width: 577px;
+    margin-bottom: 35px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.hero-link{
+    width: 207px;
+    height: 71px;
+    background: #292F36;
+    color: #fff;
+    border-radius: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+}
+.advert{
+    display: flex;
+    justify-content: center;
+}
+.advert-div{
+    width: 400px;
+    height: 395px;
+}
+.ad-head{
+    width: 174px;
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.ad-para{
+    width: 317px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.ad-link{
+    width: 320px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #4D5053;
+}
+.designs{
+    margin: auto;
+    width: 1200px;
+    height: 635px;
+    display: flex;
+
+}
+.design-head{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.design-para{
+    margin: 41px 0;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.tel{
+    width: 532px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 155px;
+    height: 79px;
+}
+.tel-text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+
+}
+.tell-icon{
+    width: 93px;
+    height: 93px;
+
+}
+.tel-link{
+    width: 138px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+
+}
+.tel-para{
+    width: 154px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.design-img{
+    width: 592px;
+    height: 635px;
+}
+.design-link{
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+}
+
+.interno{
+    width: 1200px;
+    height: 675px;
+    background: #F4F0EC;
+    border-radius: 70px;
+    margin: auto;
+}
+.interno-flex{
+    margin: 45px;
+    display: flex;
+    justify-content: space-between
+}
+.interno-head{
+    padding-top: 103px;
+    margin: auto;
+    width: 479px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.interno-div{
+    background-color: #fff;
+    width: 356px;
+    height: 289px;
+    border-radius: 30px;
+}
+.people-img{
+    margin: 50px auto 25px auto;
+    display: flex;
+    width: 289px;
+    height: 77px;
+}
+.name{
+    margin: auto;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    width: 150px;
+}
+.country{
+    width: 136px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.interno-para{
+    margin: auto;
+    width: 244px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.brand-section{
+    width: 1200px;
+    height: 103px;
+    margin: 139px auto 100px auto;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects{
+    margin: 100px auto 80px auto;
+    width: 1200px;
+    height: 1865px;
+
+}
+.project-text{
+    margin: 15px 0 70px 0;
+    width: 1200px;
+    height: 128px;
+}
+.project-head{
+    margin: 13px auto 29px auto;
+    width: 331px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.project-para{
+    margin: auto;
+    width: 786px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.project-photo{
+    margin: 70px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bedroom{
+    margin: 60px auto;
+}
+.ambience{
+    margin: 60px auto;
+}
+.photos{
+    width: 590px;
+    height: 661px;
+}
+.photo-head{
+    margin: 24px 0 5px 0;
+    width: 325px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.photo-para{
+    width: 130px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.ranks{
+    width: 1440px;
+    height: 475px;
+    background-color: #F5F5F5;
+}
+.mini-rank{
+    width: 1200px;
+    height: 475px;
+    margin: auto;
+    display: flex;
+}
+.rank-div{
+    margin: auto;
+    width: 288px;
+    height: 195px;
+    text-align: center;
+    border-left: 1px solid #CDA274;;
+}
+.rank-num{
+    width: 105px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+}
+.rank-para{
+    margin: auto;
+    width: 200px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.blogs{
+    width: 1200px;
+    height: 1343px;
+    margin: 130px auto 100px auto;
+}
+.blog-text{
+    width: 1200px;
+    height: 148px;
+    margin: 15px 0 30px 0;
+}
+.blog-head{
+    margin: 0 auto 21px auto;
+    width: 274px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.blog-para{
+    margin: auto;
+    width: 584px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+
+}
+.b-photos{
+    margin: 40px 0 0 0 ;
+    border: 1px solid #F4F0EC;
+    border-radius: 50px;
+    width: 387px;
+    height: 515px;
+}
+.blog-photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bphoto-head{
+    margin: 15px 0 10px 21px;
+    width: 338px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: #292F36;
+}
+
+.kitchen-ny{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/residence.png");
+    width: 345px;
+    height: 296px;
+}
+.liv-decor{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/decor-house.png");
+    width: 345px;
+    height: 296px;
+}
+.min-house{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/inerior-value.png");
+    width: 345px;
+    height: 296px;
+}
+.kitchen-busines{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/business-interior.png");
+    width: 345px;
+    height: 296px;
+}
+.liv-construc{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/construction.png");
+    width: 345px;
+    height: 296px;
+}
+.min-kitchen{
+    margin: 21px 0 16px 21px;
+    position: relative;
+    background-image: url("../img/kitchen.png");
+    width: 345px;
+    height: 296px;
+}
+.k-border{
+    position: absolute;
+    top: 224px;
+    left: 24px;
+    text-align: center;
+    width: 125px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0px;
+}
+.liv-border{
+    position: absolute;
+    top: 224px;
+    left: 24px;
+    text-align: center;
+    width: 125px;
+    background-color: #fff;
+    border-radius: 8px 8px 8px 0px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.min-border{
+    position: absolute;
+    top: 224px;
+    left: 24px;
+    text-align: center;
+    width: 125px;
+    background-color: #fff;
+    border-radius: 8px 8px 8px 0px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.b-data{
+    margin: 0 21px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.contact{
+    width: 1200px;
+    height: 414px;
+    margin: auto;
+    background: #292F36;
+    border-radius: 70px;
+}
+.contact-head{
+    padding-top: 100px;
+    margin: 0px auto 9px auto;
+    width: 534px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+}
+.contact-para{
+    width: 371px;
+    margin: auto;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+
+}
+.contact-btn{
+    width: 241px;
+    height: 71px;
+    background: #CDA274;
+    border: 2px solid #CDA274;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    margin: 31px 0 0 474px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+}
+.footer{
+    padding-top: 180px;
+    margin: 80px auto 0 auto;
+    width: 1440px;
+    height: 608px;
+
+}
+.footer-list{
+    width: 1200px;
+    height: 545px;
+    margin: 50px auto 0 auto;
+    list-style: none;
+    display: flex;
+}
+.flogo-part{
+    width: 393px;
+    height: 374px;
+}
+.flogo-para{
+    width: 326px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.list-item{
+    width: 210px;
+    height: 374px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.item-head{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+.socil-media{
+    width: 333px;
+    height: 53px;
+    align-content: space-between;
+}
+.address{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.contacts-part{
+    width: 337px;
+    height: 374px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.foot-link{
+    color: #4D5053;
+}
+.end{
+    border-top: 1px solid grey;
+    width: 1440px;
+    height: 104px;
+}
+.end-para{
+    margin: auto;
+    width: 789px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+.end-link{
+    color: #CDA274;
+}
